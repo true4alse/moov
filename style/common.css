@@ -1,0 +1,57 @@
+/* 공통적인 스타일 - 모든 html파일에서 연결 됨 */
+:root{
+    /* 사용할 변수 값 모음 */
+    --f-size-pc:20px;
+    --f-size-tab:18px;
+    --f-size-mo:14px;
+
+    /* 여백 설정 */
+    --space-x-small:0.25rem;
+    --space-small:0.5rem;
+    --space-normal:1rem;
+    --space-large:2rem;
+    --space-x-large:4rem;
+    --space-xx-large:6rem;
+
+    /* 색상 */
+    --main-color-100:#FDEBC5;
+    --main-color-200:#F9DA98;
+    --main-color-300:#F2C970;
+    --main-color:#E9B950;
+
+    /* 폰트사이즈 */
+    --heading1:3rem;
+    --heading2:1.4rem;
+    --heading3:1.25rem;
+    --heading4:1rem;
+    --body:1rem;
+    --detail:0.9rem;
+    --button:0.8rem;
+}
+/* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"); */
+html{
+    font-size:var(--f-size-pc);
+    font-family:Pretendard,sans-serif;
+}
+@media (max-width:1400px){
+    html{
+        font-size: var(--f-size-tab);
+    }
+}
+@media (max-width:768px){
+    html{
+        font-size: var(--f-size-mo);
+    }
+}
+h1{
+    font-size:var(--heading1);
+}
+h2{
+    font-size: var(--heading2);
+}
+h3{
+    font-size: var(--heading3);
+}
+h4{
+    font-size: var(--heading4);
+}

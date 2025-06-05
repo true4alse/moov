@@ -1,0 +1,24 @@
+/* 모든 html파일에 연결되는 파일 - 기본 스타일 제거하는 목적으로 사용 */
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: inherit;
+    color:inherit
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+}
+address{
+    font-style: inherit;
+}
+img{
+    max-width: 100%;
+}
+table{
+    border-collapse: collapse;
+}
