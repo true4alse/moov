@@ -1,0 +1,9 @@
+@media (max-width:768px){
+    .hero_navi{
+        padding:0 1rem;
+    }
+    .bannerLine{
+        flex-direction: column;
+        gap:var(--space-small);
+    }
+}

@@ -27,6 +27,13 @@
     --body:1rem;
     --detail:0.9rem;
     --button:0.8rem;
+
+    /* 좌우 반응형 여백 */
+    /* pc -> 3rem */
+    /* tab -> 2rem */
+    /* mo -> 1rem */
+    /* --device-space:3rem; */
+    
 }
 /* @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"); */
 html{
@@ -55,3 +62,4 @@ h3{
 h4{
     font-size: var(--heading4);
 }
+

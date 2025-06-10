@@ -1,0 +1,15 @@
+.horizontal-drag-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: grab;
+    user-select: none;
+}
+
+.horizontal-drag-scroll:active {
+cursor: grabbing;
+}
+
+.horizontal-drag-scroll .item {
+
+}

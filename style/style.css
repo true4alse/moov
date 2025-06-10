@@ -1,0 +1,36 @@
+/* slider hero */
+.hero{
+    width:100%;
+}
+.hero img{
+    width:100%;
+    object-fit: cover;
+}
+.hero_navi{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    z-index: 1000;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:0 3rem;
+    box-sizing: border-box;
+}
+.hero_navi img{
+    height:2rem;
+    width:2rem;
+    cursor: pointer;
+}
+.hero .swiper-wrapper {
+    /* transition-timing-function: cubic-bezier(1, 0.2, 0, 1.03); */
+}
+.bannerLine{
+    background-color: var(--main-color);
+    padding:1rem 0;
+    display: flex;
+    justify-content: center;
+    gap:var(--space-large);
+    align-items: center;
+}
+.hero{line-height: 0;}
