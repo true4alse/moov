@@ -34,3 +34,25 @@
     align-items: center;
 }
 .hero{line-height: 0;}
+.con1{
+    padding-top: var(--space-xx-large);
+    text-align: center;
+}
+.con1 h1{
+    margin-bottom: var(--space-normal);
+}
+.con1 h1+p{
+    margin-bottom: var(--space-x-large);
+}
+.newArrStation{
+    margin-top: var(--space-large);
+}
+.slideItemList figure img{
+    width:100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.pt1{
+    display: flex;
+    justify-content: space-between;
+}

@@ -40,14 +40,23 @@ html{
     font-size:var(--f-size-pc);
     font-family:Pretendard,sans-serif;
 }
+.commonFrame{
+    padding:0 3rem;
+}
 @media (max-width:1400px){
     html{
         font-size: var(--f-size-tab);
+    }
+    .commonFrame{
+        padding:0 2rem;
     }
 }
 @media (max-width:768px){
     html{
         font-size: var(--f-size-mo);
+    }
+    .commonFrame{
+        padding:0 1rem;
     }
 }
 h1{
