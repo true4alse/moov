@@ -2,4 +2,12 @@
     .hero_navi{
         padding:0 2rem;
     }
+    .con2Txt{
+        flex-grow: 0;
+        width:40%;
+    }
+    .con2Slider{
+        width:60%;
+        flex-shrink: 1;
+    }
 }
