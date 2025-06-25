@@ -10,4 +10,10 @@
         width:60%;
         flex-shrink: 1;
     }
+    .subHero{
+        height:680px;
+    }
+    .gridList{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+    }
 }

@@ -22,3 +22,6 @@ img{
 table{
     border-collapse: collapse;
 }
+fieldset{
+    border: none;
+}

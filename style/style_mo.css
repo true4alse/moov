@@ -1,4 +1,7 @@
 @media (max-width:768px){
+    .certi{
+        grid-template-columns: repeat(2,1fr);
+    }
     .hero_navi{
         padding:0 1rem;
     }
@@ -28,5 +31,24 @@
     }
     .col2 img{
         aspect-ratio: 2/1;
+    }
+    .subHero{
+        height:100vh;
+    }
+    .dlfilter dt{
+        width:40px;
+    }
+    .gridList{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
+
+@media (max-width:320px){
+    /* 기계 장치 너비 320픽셀 이하 */
+    .step{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-items: center;
+       gap:2rem 1rem;
     }
 }

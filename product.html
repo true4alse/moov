@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -179,89 +179,32 @@
     </header>
 
     <main>
-        <!-- hero  -->
-        <div class="hero swiper">
-            <div class="hero_navi">
-                <span class="btn_hero_prev">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="50" height="50" rx="25" fill="#FDEBC5"/>
-                        <path d="M28 31L22 25L28 19" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                </span>
-                <span class="btn_hero_next">
-                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="50" height="50" rx="25" fill="#FDEBC5"/>
-                        <path d="M22 31L28 25L22 19" stroke="#1E1E1E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        
-                </span>
+        <div class="subHero commonFrame">
+            <div class="subHeroTxt">
+                <div class="subHeroTitle">Rest. Rewind. Rise.</div>
+                <div class="subHeroDesc">하루의 무게를 내려놓고,<br>당신만의 리듬으로 다시 숨 쉬는 시간.</div>
             </div>
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-              <!-- Slides -->
-              <div class="swiper-slide">
-                <picture>
-                    <source media="(max-width:768px)" srcset="./img/slide1_mo.jpg">
-                    <source media="(max-width:1400px)" srcset="./img/slide1_tab.jpg">
-                    <img src="./img/slide1.jpg" alt="슬라이드1">
-                </picture>
-              </div>
-              <div class="swiper-slide">
-                <picture>
-                    <source media="(max-width:768px)" srcset="./img/slide2_mo.jpg">
-                    <source media="(max-width:1400px)" srcset="./img/slide2_tab.jpg">
-                    <img src="./img/slide2.jpg" alt="슬라이드2">
-                </picture>
-              </div>
-              <div class="swiper-slide">
-                <picture>
-                    <source media="(max-width:768px)" srcset="./img/slide3_mo.jpg">
-                    <source media="(max-width:1400px)" srcset="./img/slide3_tab.jpg">
-                    <img src="./img/slide3.jpg" alt="슬라이드3">
-                </picture>
-              </div>
-            </div>
-        </div>
-        <script>
-            let swiper1 = new Swiper('.hero',{
-                loop:true,
-                navigation: {
-                    nextEl: ".btn_hero_next",
-                    prevEl: ".btn_hero_prev",
-                },
-                speed:1000
-            });
-        </script>
-
-        <div class="bannerLine">
-            <h2>데일리 무브 페스타</h2>
-            <p>따뜻한 혜택을 담은 무브의 특별한 혜택을 만나보세요!</p>
-            <a href="#" class="btn_go">
-                <span>혜택 보러가기</span>
-                <img src="./img/icn_arrow.svg" alt="혜택 바로가기">
-            </a>
         </div>
 
         <div class="con1 commonFrame">
-            <h1 class="bbyong">NEW ARRIVAL</h1>
-            <p class="bbyong">무브의 신제품을 만나보세요.</p>
-            <a href="./product.html" class="btn_go">
+            <h1 class="bbyong">MD’s Pick</h1>
+            <p class="bbyong">고객님이 많이 찾는 상품들을 추천해드려요</p>
+            <!-- <a href="#" class="btn_go">
                 <span>신제품 보러가기</span>
                 <img src="./img/icn_arrow.svg" alt="신제품 바로가기">
-            </a>
+            </a> -->
             
             <div class="newArrStation swiper">
                 <ul class="slideItemList swiper-wrapper">
                     <li class="swiper-slide">
                         <figure class="proImg">
                             <a href="#">
-                                <img src="./img/na1.png" alt="슬림 하드 매트리스 ss 상품 섬네일">
+                                <img src="./img/md1.jpg" alt="슬림 하드 매트리스 (SS) 섬네일">
                             </a>
                         </figure>
                         <div class="proTxt">
                             <div class="pt1">
-                                <span>메이븐</span>
+                                <span>헤이븐</span>
                                 <div class="like">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -270,7 +213,7 @@
                                 </div>
                             </div>
                             <div class="pt2">
-                                <h4>슬림 하드 매트리스 (SS)슬림 하드 매트리스 (SS)슬림 하드 매트리스 (SS)슬림 하드 매트리스 (SS)</h4>
+                                <h4>슬림 하드 매트리스 (SS)</h4>
                             </div>
                             <div class="pt3">
                                 <h2>999,900</h2>원
@@ -280,12 +223,12 @@
                     <li class="swiper-slide">
                         <figure class="proImg">
                             <a href="#">
-                                <img src="./img/na2.png" alt="디럭스 하드 매트리스 (K) 상품 섬네일">
+                                <img src="./img/md2.jpg" alt="디럭스 하드 매트리스 (K) 상품 섬네일">
                             </a>
                         </figure>
                         <div class="proTxt">
                             <div class="pt1">
-                                <span>메이븐</span>
+                                <span>헤이븐</span>
                                 <div class="like">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -304,36 +247,36 @@
                     <li class="swiper-slide">
                         <figure class="proImg">
                             <a href="#">
-                                <img src="./img/na3.png" alt="주방식기장 (솔리드도어) 상품 섬네일">
+                                <img src="./img/md3.jpg" alt="쿠시노 섬네일">
                             </a>
                         </figure>
                         <div class="proTxt">
                             <div class="pt1">
-                                <span>레마</span>
+                                <span>쿠시노</span>
                                 <div class="like">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                     </svg>
-                                    <span class="likeNum">36699</span>
+                                    <span class="likeNum">426699</span>
                                 </div>
                             </div>
                             <div class="pt2">
-                                <h4>주방식기장 (솔리드도어)</h4>
+                                <h4>저상형 패밀리 침대 Q+S</h4>
                             </div>
                             <div class="pt3">
-                                <h2>309,000</h2>원
+                                <h2>1,096,000</h2>원
                             </div>
                         </div>
                     </li>
                     <li class="swiper-slide">
                         <figure class="proImg">
                             <a href="#">
-                                <img src="./img/na4.png" alt="주방식기장 (포인트도어) 상품 섬네일">
+                                <img src="./img/md4.jpg" alt="침대 Q/K(패브릭) 섬네일">
                             </a>
                         </figure>
                         <div class="proTxt">
                             <div class="pt1">
-                                <span>레마</span>
+                                <span>론다</span>
                                 <div class="like">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -342,10 +285,10 @@
                                 </div>
                             </div>
                             <div class="pt2">
-                                <h4>주방식기장 (포인트도어)</h4>
+                                <h4>침대 Q/K(패브릭)</h4>
                             </div>
                             <div class="pt3">
-                                <h2>309,000</h2>원
+                                <h2>1,190,000</h2>원
                             </div>
                         </div>
                     </li>
@@ -395,230 +338,251 @@
                     }
                 })
             </script>
-            
         </div>
-
-        <div class="con2 commonFrame">
-            <div class="con2Txt">
-                <h1 class="bbyong">EVENT & PROMOTION</h1>
-                <h3 class="bbyong">당신의 공간에, 특별한 무브를 더하세요</h3>
-                <p class="bbyong">무브에서 준비한 특별한 혜택을 만나보세요!<br>공간을 더욱 아름답고 편안하게 만들어 줄 프리미엄 가구를, 지금만 누릴 수 있는 특별한 조건으로 제공합니다.</p>
-            </div>
-            <div class="con2Slider">
-                <div class="eventStation swiper">
-                    <ul class="eventList swiper-wrapper">
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <figure>
-                                    <img src="./img/ev1.jpg" alt="신제품 런칭 기념! 무브 첫 만남 이벤트">
-                                </figure>
-                                <h4>신제품 런칭 기념! 무브 첫 만남 이벤트</h4>
-                                <p>무브의 새로운 시즌 컬렉션 출시를 기념하여, 첫 고객분들께만 드리는 특별한 혜택! </p>
-                                <div class="date">2025년 5월 20일 ~ 6월 10일</div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <figure>
-                                    <img src="./img/ev2.jpg" alt="리뷰 쓰고, 혜택 받고! 고객 감사 후기 이벤트">
-                                </figure>
-                                <h4>리뷰 쓰고, 혜택 받고! 고객 감사 후기 이벤트</h4>
-                                <p>당신의 소중한 후기가 무브에게 큰 힘이 됩니다. 정성껏 작성해주신 분들께 선물을 드려요.</p>
-                                <div class="date">2025년 5월 16일 ~ 6월 30일</div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <figure>
-                                    <img src="./img/ev3.jpg" alt="우리 집 첫 가구, 무브에서 시작하세요">
-                                </figure>
-                                <h4>우리 집 첫 가구, 무브에서 시작하세요</h4>
-                                <p>신혼부부, 자취생, 첫 독립을 위한 첫 가구! 합리적인 가격으로 무브가 함께합니다.</p>
-                                <div class="date">2025년 5월 16일 ~ 6월 30일</div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <figure>
-                                    <img src="./img/ev4.jpg" alt="친구 추천하고, 함께 혜택 받아요!">
-                                </figure>
-                                <h4>친구 추천하고, 함께 혜택 받아요!</h4>
-                                <p>무브를 친구에게 소개하고, 추천인과 피추천인 모두에게 혜택을 드립니다.이벤트: 친구가 가입 & 첫 구매 시, 양측 모두 적립금 10,000원 지급</p>
-                                <div class="date">2025년 5월 16일 ~ 상시 진행</div>
-                            </a>
-                        </li>
-                        <li class="swiper-slide">
-                            <a href="#">
-                                <figure>
-                                    <img src="./img/ev5.jpg" alt="무브와 함께하는 친환경 실천, 텀블러 챌린지">
-                                </figure>
-                                <h4>무브와 함께하는 친환경 실천, 텀블러 챌린지</h4>
-                                <p>무브는 지속 가능한 삶을 응원합니다. 텀블러 사용 인증하면 특별한 선물을 드려요.이벤트: SNS에 텀블러 인증 후 태그 시 무브 에코백 증정 (선착순 100명)</p>
-                                <div class="date">2025년 5월 16일 ~ 6월 15일</div>
-                            </a>
-                        </li>
+        <div class="con1 commonFrame">
+            <h1 class="bbyong">Best</h1>
+            <p class="bbyong">무브의 최고의 상품을 만나보세요.</p>
+            <dl class="dlfilter">
+                <dt>품목</dt>
+                <dd class="horizontal-drag-scroll">
+                    <ul class="filterCate">
+                        <li><a href="#">침대</a></li>
+                        <li><a href="#">매트리스</a></li>
+                        <li><a href="#">드레스룸</a></li>
+                        <li><a href="#">수납장</a></li>
+                        <li><a href="#">화장대</a></li>
                     </ul>
-                </div>
-            </div>
-            <script>
-                let eventStation = new Swiper(".eventStation",{
-                    breakpoints:{
-                        280:{
-                            slidesPerView: 1.2,
-                            spaceBetween: 14,
-                        },
-                        768:{
-                            slidesPerView: 1.2,
-                            spaceBetween: 18,
-                        },
-                        1400:{
-                            slidesPerView: 2.25,
-                            spaceBetween: 20,
-                        }
-                    }
-                })
-            </script>
-        </div>
-
-        <div class="con3 commonFrame">
-            <h1 class="bbyong">MAGAZINE</h1>
-            <p class="bbyong">번뜩이는 영감과, 재밌는 이야기로 가득찬  무브를 만나보세요.</p>
-            <a href="./product.html" class="btn_go">
-                <span>매거진 바로가기</span>
-                <img src="./img/icn_arrow.svg" alt="혜택 바로가기">
-            </a>
-            <ul class="list">
+                </dd>
+            </dl>
+            <dl class="dlfilter">
+                <dt>시리즈</dt>
+                <dd class="horizontal-drag-scroll">
+                    <ul class="filterCate">
+                        <li><a href="#">아르지안</a></li>
+                        <li><a href="#">쿠시노</a></li>
+                        <li><a href="#">테일러</a></li>
+                        <li><a href="#">미엘</a></li>
+                        <li><a href="#">메이</a></li>
+                        <li><a href="#">어바니</a></li>
+                        <li><a href="#">헤이즐</a></li>
+                        <li><a href="#">그라나다</a></li>
+                        <li><a href="#">플렉서블</a></li>
+                        <li><a href="#">바젤</a></li>
+                        <li><a href="#">세르크</a></li>
+                        <li><a href="#">반트</a></li>
+                        <li><a href="#">쿠시노코지</a></li>
+                        <li><a href="#">론다</a></li>
+                        <li><a href="#">업</a></li>
+                    </ul>
+                </dd>
+            </dl>
+            <ul class="gridList">
                 <li>
-                    <a href="#">
-                        <figure>
-                            <img src="./img/mg1.jpg" alt="요즘 사람들, ‘쉼’을 배우다">
-                        </figure>
-                        <h4>요즘 사람들, ‘쉼’을 배우다</h4>
-                        <div class="detail">#쉼의기술 #슬로우라이프 #마인드풀니스 #무브매거진 #힐링트렌드</div>
-                    </a>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best1.jpg" alt="">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>Cloud Touch 침대</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">999</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        구름 위에 누운 듯한 푹신한 메모리폼 침대입니다. 퀸사이즈로 넉넉하게 사용 가능하며, 세련된 곡선 프레임이 특징이에요. 하루의 피로를 완벽하게 풀어줍니다.
+                    </div>
+                    <div class="gridTxt3">
+                        #침대, #메모리폼, #퀸사이즈, #수면템
+                    </div>
+                    <div class="pt3">
+                        <h2>890,000</h2>원
+                    </div>
                 </li>
                 <li>
-                    <a href="#">
-                        <figure>
-                            <img src="./img/mg2.jpg" alt="퇴사 후, 모두가 디지털 노마드가 된 건 아닙니다">
-                        </figure>
-                        <h4>퇴사 후, 모두가 디지털 노마드가 된 건 아닙니다</h4>
-                        <div class="detail">#디지털노마드 #퇴사후이야기 #자기계발 #일과삶의균형 #라이프스타일변화</div>
-                    </a>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best2.jpg" alt="미드센추리 우드 침대">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>미드센추리 우드 침대</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">312</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        따뜻한 원목 프레임과 클래식한 라인이 돋보이는 침대입니다. 내추럴한 무드의 침실에 어울려요. 견고한 구조로 오랫동안 사용할 수 있어요.
+                    </div>
+                    <div class="gridTxt3">
+                        #원목침대, #내추럴, #모던클래식, #침대
+                    </div>
+                    <div class="pt3">
+                        <h2>670,000</h2>원
+                    </div>
                 </li>
-                <li class="col2">
-                    <a href="#">
-                        <figure>
-                            <img src="./img/mg3.jpg" alt="Z세대의 소비는 ‘정체성’이다">
-                        </figure>
-                        <h4>Z세대의 소비는 ‘정체성’이다</h4>
-                        <div class="detail">#Z세대소비 #브랜드태도 #정체성소비 #미닝아웃 #트렌드리포트</div>
-                    </a>
+                <li>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best3.jpg" alt="수납의 정석 서랍형 침대">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>수납의 정석 서랍형 침대</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">4512</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        침대 아래 넉넉한 서랍이 숨어 있어 수납 걱정 끝! 좁은 공간에서 활용도 높은 실용적인 아이템입니다. 매트리스 포함 옵션도 선택 가능해요.
+                    </div>
+                    <div class="gridTxt3">
+                        #서랍침대, #수납가구, #실용적인침대, #침대
+                    </div>
+                    <div class="pt3">
+                        <h2>540,000</h2>원
+                    </div>
                 </li>
-                
+                <li>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best4.jpg" alt="Cozy 침대 전용 헤드쿠션">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>Cozy 침대 전용 헤드쿠션</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">543</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        침대에 기대어 책 읽을 때 딱 좋은 전용 헤드쿠션입니다. 폭신한 충전재와 감성 패브릭으로 편안함을 더해줘요. 탈부착 가능해 청소도 간편해요.
+                    </div>
+                    <div class="gridTxt3">
+                        #헤드쿠션, #침대쿠션, #거실침대, #쿠션
+                    </div>
+                    <div class="pt3">
+                        <h2>49,000</h2>원
+                    </div>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best5.jpg" alt="프레시 베개 & 침대시트 세트">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>프레시 베개 & 침대시트 세트</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">352</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        통기성과 항균력 좋은 소재로 만든 침대 전용 시트+베개 커버 세트. 여름에도 쾌적하게 숙면을 도와줘요. 깔끔한 컬러 구성으로 어디에나 잘 어울려요.
+                    </div>
+                    <div class="gridTxt3">
+                        #침대시트, #베개세트, #항균침구, #숙면템
+                    </div>
+                    <div class="pt3">
+                        <h2>62,000</h2>원
+                    </div>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best6.jpg" alt="감성 패브릭 침대스커트">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>감성 패브릭 침대스커트</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">21</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        침대 아래 공간을 깔끔하게 가려주는 패브릭 침대스커트입니다. 침실 분위기를 한층 더 아늑하게 바꿔줘요. 다양한 색상으로 선택의 폭도 넓어요.
+                    </div>
+                    <div class="gridTxt3">
+                        #침대스커트, #패브릭, #침실꾸미기, #침대인테리어
+                    </div>
+                    <div class="pt3">
+                        <h2>32,000</h2>원
+                    </div>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best7.jpg" alt="Hotel Mood 침대조명 세트">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>Hotel Mood 침대조명 세트</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">311</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        고급 호텔 감성 그대로, 침대 양옆에 설치하는 조명 세트입니다. 3단 밝기 조절이 가능하며, 간접조명으로 공간을 은은하게 밝혀줘요.
+                    </div>
+                    <div class="gridTxt3">
+                        #침대조명, #무드등, #침실인테리어, #조명
+                    </div>
+                    <div class="pt3">
+                        <h2>84,000</h2>원
+                    </div>
+                </li>
+                <li>
+                    <figure>
+                        <a href="#">
+                            <img src="./img/best8.jpg" alt="따뜻한 플란넬 침대이불">
+                        </a>
+                    </figure>
+                    <div class="gridTxt1">
+                        <h4>따뜻한 플란넬 침대이불</h4>
+                        <div class="like">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.84 4.60999C20.3292 4.099 19.7228 3.69364 19.0554 3.41708C18.3879 3.14052 17.6725 2.99817 16.95 2.99817C16.2275 2.99817 15.5121 3.14052 14.8446 3.41708C14.1772 3.69364 13.5708 4.099 13.06 4.60999L12 5.66999L10.94 4.60999C9.9083 3.5783 8.50903 2.9987 7.05 2.9987C5.59096 2.9987 4.19169 3.5783 3.16 4.60999C2.1283 5.64169 1.54871 7.04096 1.54871 8.49999C1.54871 9.95903 2.1283 11.3583 3.16 12.39L12 21.23L20.84 12.39C21.351 11.8792 21.7563 11.2728 22.0329 10.6053C22.3095 9.93789 22.4518 9.22248 22.4518 8.49999C22.4518 7.77751 22.3095 7.0621 22.0329 6.39464C21.7563 5.72718 21.351 5.12075 20.84 4.60999Z" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span class="likeNum">999</span>
+                        </div>
+                    </div>
+                    <div class="gridTxt2">
+                        겨울에 꼭 필요한 플란넬 침대 전용 이불입니다. 부드럽고 포근한 촉감으로 수면 질을 높여줘요. 깔끔한 색감으로 인테리어 효과도 있어요.
+                    </div>
+                    <div class="gridTxt3">
+                        #플란넬이불, #겨울침구, #침대이불, #포근함
+                    </div>
+                    <div class="pt3">
+                        <h2>89,000</h2>원
+                    </div>
+                </li>
             </ul>
         </div>
+        
 
-        <div class="con4 commonFrame">
-            <h1 class="bbyong">나의 MOOV생활</h1>
-            <p class="bbyong">무브로 달라진 특별한 생활을 만나보세요.</p>
-            <a href="./product.html" class="btn_go">
-                <span>Moov생활 바로가기</span>
-                <img src="./img/icn_arrow.svg" alt="혜택 바로가기">
-            </a>
-            <div class="moovLifeStation swiper">
-                <ul class="moovLifeList swiper-wrapper">
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <figure>
-                                <img src="./img/life1.jpg" alt="🪑 “하루 끝, 나만의 시간”">
-                            </figure>
-                            <div class="star">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                            </div>
-                            <h4>🪑 “하루 끝, 나만의 시간”</h4>
-                            <p>하루 종일 회의실을 돌고, 정신없이 지나간 날. 집에 들어와 무브 라운지 체어에 앉는 순간, 마치 숨이 다시 쉬어지는 기분이에요. 처음엔 디자인이 예뻐서 샀지만, 지금은 이 의자 없으면 하루가 마무리되지 않아요.</p>
-                            <div class="detail">김서윤(29세 / 브랜드 마케터)</div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <figure>
-                                <img src="./img/life2.jpg" alt="🛋️ “우리 가족의 저녁 시간”">
-                            </figure>
-                            <div class="star">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                            </div>
-                            <h4>🛋️ “우리 가족의 저녁 시간”</h4>
-                            <p>요즘 우리 집 저녁 풍경은 늘 이 소파에서 시작돼요. 아이 둘, 아내, 저까지 네 명이 이 소파에 모여앉아 만화도 보고, 서로 하루 어땠는지 얘기도 나눠요. 이전 소파는 푹 꺼지고 앉으면 허리가 아팠는데, 무브 소파는 탄탄하고 넓어서 다들 자꾸 소파 쟁탈전을 벌일 정도예요.</p>
-                            <div class="detail">최재훈(43세 / 초등학교 교사)</div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <figure>
-                                <img src="./img/life3.jpg" alt="🛏️ “고양이와 나의 아침”">
-                            </figure>
-                            <div class="star">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                            </div>
-                            <h4>🛏️ “고양이와 나의 아침”</h4>
-                            <p>아침 햇살이 침실에 스며들 때, 무브 침대 위에서 고양이 ‘호두’와 함께 뒹굴거리는 시간이 제일 행복해요. 저상형이라 호두가 자유롭게 올라오고 내려갈 수 있어서 그런지, 아예 침대가 자기 영역이라고 생각하더라고요.</p>
-                            <div class="detail">이가은(26세 / 일러스트레이터)</div>
-                        </a>
-                    </li>
-                    <li class="swiper-slide">
-                        <a href="#">
-                            <figure>
-                                <img src="./img/life4.jpg" alt="“거울 앞에서 나를 응원해요”">
-                            </figure>
-                            <div class="star">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                                <img src="./img/star.svg" alt="별 아이콘">
-                            </div>
-                            <h4>“거울 앞에서 나를 응원해요”</h4>
-                            <p>꽃집을 나서기 전, 항상 이 거울 앞에 섭니다. "오늘도 잘 해보자!" 하고 스스로를 바라보면 이상하게 힘이 나거든요. 무브 거울은 단순하지만 고급스러운 프레임이 마음에 들었고, 빛을 잘 반사해서 매장 구석에 놓아도 공간이 더 밝아 보여요.</p>
-                            <div class="detail">정다빈(35세 / 플로리스트)</div>
-                        </a>
-                    </li>
-                </ul>
-                <script>
-                    let moovLifeStation = new Swiper(".moovLifeStation",{
-                        breakpoints:{
-                            280:{
-                                slidesPerView: 1.2,
-                                spaceBetween: 14,
-                            },
-                            768:{
-                                slidesPerView: 4,
-                                spaceBetween: 18,
-                            },
-                            1400:{
-                                slidesPerView: 4,
-                                spaceBetween: 20,
-                            }
-                        }
-                    })
-                </script>
-            </div>
-        </div>
     </main>
-    
+
     <footer>
         <div class="footerLeft">
             <ul class="fmenu">
