@@ -555,6 +555,8 @@ main{
     display: flex;
     gap:0.5rem;
     justify-content: center;
+    position: sticky;
+    top:50px;
 }
 .sticky_menu>li>a{
     width:10rem;
@@ -564,6 +566,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: var(--space-x-small);
+    background-color: #fff;
 }
 .csList{
     display: flex;
@@ -583,4 +586,39 @@ main{
     display: block;
     padding:1.5rem 0;
     font-size: var(--detail);
+}
+.csList section a:hover{
+    border:1px solid var(--main-color);
+    color:var(--main-color);
+}
+.csList section h3{
+    color:var(--main-color);
+}
+.csNum{
+   
+}
+.csNum h3{
+    margin-bottom: var(--space-normal);
+    color:var(--main-color);
+}
+.csNum h3+p{
+    margin-bottom: var(--space-large);
+}
+.csNum a{
+    font-size: var(--heading1);
+    font-weight: 700;
+    margin-bottom: var(--space-large);
+    display: block;
+}
+.csNum dl{
+    width:280px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    gap:1rem;
+    text-align: left;
+    margin-bottom: var(--space-large);
+}
+.csNum dl dd{
+    font-weight: 700;
 }

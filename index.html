@@ -33,8 +33,18 @@
     <script src="./script/component.js"></script>
     <script src="./script/bbyong.js"></script>
     <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/search.css">
+    <script src="./script/search.js"></script>
 </head>
 <body>
+    <div class="search">
+        <form>
+            <h1>SEARCH</h1>
+            <label for="search">검색</label>
+            <input type="text" id="search" placeholder="찾으시는 상품명을 입력해주세요.">
+        </form>
+    </div>
+
     <!-- hidden menu -->
     <div class="hidden_menu">
         <div class="hid_top">
@@ -45,7 +55,7 @@
                         <li><a href="./login.html">로그인</a></li>
                         <li><a href="./membership_1.html">회원가입</a></li>
                         <li><a href="./login.html">주문/배송</a></li>
-                        <li><a href="#">고객지원</a></li>
+                        <li><a href="./cscenter_1.html">고객지원</a></li>
                         <li><a href="#">매장안내</a></li>
                     </ul>
                 </div>
@@ -160,7 +170,7 @@
                 <li><a href="./login.html">로그인</a></li>
                 <li><a href="./membership_1.html">회원가입</a></li>
                 <li><a href="./login.html">주문/배송</a></li>
-                <li><a href="#">고객지원</a></li>
+                <li><a href="./cscenter_1.html">고객지원</a></li>
                 <li><a href="#">매장안내</a></li>
             </ul>
         </div>
@@ -171,7 +181,7 @@
         </div>
         <div>
             <ul class="util">
-                <li><a href="#"><img src="./img/icn_search.svg" alt="검색하기"></a></li>
+                <li id="btn_search"><a href="#"><img src="./img/icn_search.svg" alt="검색하기"></a></li>
                 <li><a href="#"><img src="./img/icn_cart.svg" alt="장바구니"></a></li>
                 <li id="btn_all_menu"><a href="#"><img src="./img/icn_menu.svg" alt="전체메뉴"></a></li>
             </ul>

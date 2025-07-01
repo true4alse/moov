@@ -1,4 +1,13 @@
 @media (max-width:768px){
+    .sticky_menu{
+        top:36px;
+    }
+    .csNum dl{
+        width:auto;
+        display: -ms-inline-grid;
+        display: -moz-inline-grid;
+        display: inline-grid;
+    }
     .sticky_menu>li{
         flex:1;
     }
