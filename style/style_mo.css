@@ -1,4 +1,24 @@
 @media (max-width:768px){
+    .sticky_menu>li{
+        flex:1;
+    }
+    .sticky_menu>li>a{
+        width:auto;
+    }
+    .csList{
+        flex-direction: column;
+        gap:var(--space-x-large);
+    }
+    .loginForm{
+        width:auto;
+        padding:0 1rem;
+    }
+    .memberInfo{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        gap:1rem;
+        justify-content: center;
+    }
     .certi{
         grid-template-columns: repeat(2,1fr);
     }
@@ -50,5 +70,11 @@
        grid-template-columns: 1fr 1fr;
        justify-items: center;
        gap:2rem 1rem;
+    }
+    .memberInfo{
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        gap:1rem;
+        justify-content: center;
     }
 }

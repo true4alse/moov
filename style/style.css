@@ -408,4 +408,179 @@ main{
     display: flex;
     justify-content: center;
 }
+.confirm{
+    display: flex;
+    justify-content: center;
+    margin-top: var(--space-x-large);
+    gap:1rem;
+}
+.btn_cancel{
+    font-size:var(--button);
+    border:1px solid #000;
+    padding:0.5rem 1.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+.btn_cancel:hover{
+    background-color: #000;
+    color:#fff;
+}
+.btn_ok{
+    font-size:var(--button);
+    padding:0.5rem 1.5rem;
+    border:1px solid var(--main-color);
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.btn_ok:hover{
+    background-color: #fff;
+}
+.memberInfo{
+    display: grid;
+    grid-template-columns: 210px 350px;
+    gap:1rem;
+    justify-content: center;
+}
+.memberInfo input{
+    padding:0.5rem 1rem;
+    width:100%;
+    text-align: center;
+    font-size: var(--button);
+    border:none;
+    background-color: #ccc;
+    border-radius: 50px;
+    outline: 0;
+    box-sizing: border-box;
+}
+.memberInfo select{
+    padding:0.5rem 1rem;
+    width:100%;
+    text-align: center;
+    font-size: var(--button);
+    outline: 0;
+    border:1px solid #000;
+}
 
+.loginForm{
+    width:586px;
+    margin:0 auto;
+    margin-top: var(--space-x-large);
+    text-align: center;
+}
+.loginForm h4{
+    margin-bottom: var(--space-large);
+}
+.snsLogin a{
+    display: flex;
+    padding:1rem;
+    font-size: var(--detail);
+    justify-content: center;
+    align-items: center;
+    gap:var(--space-normal);
+    border-radius: 100px;
+}
+.snsLogin{
+    display: flex;
+    flex-direction: column;
+    gap:var(--space-normal);
+}
+.kakao{
+    background-color: #FEE500;
+}
+.naver{
+    background-color: #03C75A;
+}
+.or{
+    margin:var(--space-normal) 0;
+    position: relative;
+}
+.or:after{
+    content:"";
+    position: absolute;
+    left:0;
+    top:50%;
+    border-bottom: 1px solid #000;
+    width:100%;
+    height:1px;
+    z-index: -1;
+}
+.or span{
+    background-color: #fff;
+    padding:0 1rem;
+}
+.loginDiv label{
+    display: none;
+}
+.loginDiv input{
+    border:1px solid #000;
+    display: flex;
+    width:100%;
+    padding:1rem;
+    box-sizing: border-box;
+    border-radius: 100px;
+    font-size: var(--detail);
+    text-align: center;
+    outline: 0;
+}
+.loginDiv{
+    display: flex;
+    flex-direction: column;
+    gap:var(--space-normal);
+}
+.loginDiv input::placeholder{
+    color:#333;
+}
+.loginDiv input[type="submit"]{
+    border:none;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+.loginDiv input[type="submit"]:hover{
+    background-color: #FDEBC5;
+}
+.memMenu{
+    display: flex;
+    gap:var(--space-normal);
+    justify-content: center;
+    margin-top: var(--space-normal);
+    font-size: var(--detail);
+}
+.con5{
+    text-align: center;
+}
+.con5 h2{
+    margin-bottom: var(--space-small);
+}
+.sticky_menu{
+    display: flex;
+    gap:0.5rem;
+    justify-content: center;
+}
+.sticky_menu>li>a{
+    width:10rem;
+    padding:0.4rem 0;
+    border:1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-x-small);
+}
+.csList{
+    display: flex;
+    margin-top: var(--space-xx-large);
+    gap:var(--space-normal);
+    margin-bottom: var(--space-x-large);
+}
+.csList section{
+    flex:1;
+}
+.csList section p{
+    margin-top: var(--space-normal);
+    margin-bottom: var(--space-large);
+}
+.csList section a{
+    border:1px solid #000;
+    display: block;
+    padding:1.5rem 0;
+    font-size: var(--detail);
+}
